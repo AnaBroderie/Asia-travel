@@ -1,0 +1,38 @@
+.menu__list {
+  width: 262px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+a.menu__link,
+a.menu__link {
+  text-decoration: none;
+  color: #fff;
+}
+a.menu__link:hover {
+  color: #d21d16;
+  transition: 0.3s;
+}
+.banner__breadcrumbs__list {
+  padding: 0;
+  margin: 29px 0 25px;
+}
+.breadcrumbs__item {
+  display: inline-block;
+}
+.banner__breadcrumbs__link {
+  text-decoration: underline;
+  font-size: 14px;
+}
+.breadcrumbs__item+.breadcrumbs__item::before {
+  content: "/";
+  display: inline-block;
+  margin: 0 2px;
+  color: #fff;
+}
+.banner__breadcrumbs__link:hover {
+  font-weight: bold;
+  color: #fff;
+}

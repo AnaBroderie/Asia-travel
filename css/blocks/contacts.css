@@ -1,0 +1,67 @@
+.contacts {
+  text-align: right;
+  position: relative;
+  top: 6px;
+}
+.contacts__phone {
+  font-size: 26px;
+  font-style: normal;
+}
+.contacts__workhours {
+  font-size: 13px;
+  font-style: normal;
+  padding-bottom: 7px;
+  position: relative;
+  display: block;
+}
+.contacts__workhours-dropdown::before {
+  content: "";
+  display: block;
+  height: 90px;
+  top: -23px;
+  left: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+}
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: #d7dbdb;
+  border-top-width: 0;
+  border-left-width: 13px;
+  border-right-width: 13px;
+  top: -9px;
+  right: 42px;
+}
+.contacts__workhours-dropdown {
+  background-color: #d7dbdb;
+  border-radius: 6px;
+  text-align: left;
+  font-style: normal;
+  color: #000000;
+  font-size: 13px;
+  line-height: 1.65;
+  float: right;
+  padding: 15px 15px 12px 17px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+  z-index: -1;
+}
+.contacts__workhours:hover {
+  text-decoration: underline;
+}
+.contacts__workhours:hover .contacts__workhours-dropdown {
+  opacity: 1;
+  right: 0;
+  z-index: 1;
+}
+.contacts__phone:hover {
+  color: #d21d16;
+  transition: 0.3s;
+}

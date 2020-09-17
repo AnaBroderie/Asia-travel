@@ -1,0 +1,79 @@
+.offer__header {
+  display: inline-block;
+  margin: 0;
+  margin-right: 10px;
+  margin-top: 256px;
+}
+.offer__list {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top: 51px;
+  padding: 0;
+}
+.offer__item {
+  width: 360px;
+  background-color: #333333;
+  border-radius: 6px;
+  margin: 0;
+  overflow: hidden;
+}
+.offer__bg {
+  width: 100%;
+  height: 140px;
+  margin: 0;
+  overflow: hidden;
+}
+.offer__img1 {
+  position: relative;
+  top: -43px;
+  left: -8px;
+  opacity: 0.5;
+  width: 385px;
+}
+.offer__img2 {
+  position: relative;
+  top: -40px;
+  opacity: 0.5;
+  width: 362px; 
+}
+.offer__img3 {
+  position: relative;
+  top: -57px;
+  left: -2px;
+  opacity: 0.5;
+  width: 361px;
+}
+.offer__content {
+  background-color: #fff;
+  background-size: cover;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 28px 20px 33px;
+}
+.offer__name {
+  color: #000000;
+  padding-bottom: 14px;
+}
+.offer__icon-calendar {
+  padding-right: 5px;
+}
+.offer__icon-meal {
+  padding-left: 35px;
+  padding-right: 5px;
+}
+.offer__length,
+.offer__meals {
+  display: inline-block;
+  color: #666666;
+  position: relative;
+  top: -5px;
+  margin-bottom: 24px;
+}
+.offer__text {
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.5;
+  padding-bottom: 22px;
+  margin: 0;
+}

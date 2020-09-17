@@ -1,0 +1,51 @@
+.button {
+  border-radius: 26px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+}
+.welcome__btn {
+  padding: 20px 58px;
+  background-color: #f5170e;
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+  margin-top: 50px;
+}
+.banner__button {
+  background-color: #d21d16;
+  padding: 18px 39px;
+  color: #fff;
+  margin-top: 38px;
+}
+.banner__button:hover,
+.aboutUs__button:hover {
+  background-color: #ba0700;
+  border-color: #ba0700;
+  color: #fff;
+  transition: 0.3s;
+}
+.offer__button {
+  background-color: #ffffff;
+  padding: 17px 29px;
+  border: 1px solid #f5170e;
+  color: #f5170e;
+}
+.offer__button:hover,
+.service__button:hover {
+  background-color: #f5170e;
+  border: 1px solid #f5170e;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.aboutUs__button {
+  background-color: #d21d16;
+  color: #fff;
+  padding: 18px 39px;
+}
+.service__button {
+  padding: 18px 37px;
+  border: 1px solid #f5170e;
+  color: #f5170e;
+}
